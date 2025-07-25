@@ -1,0 +1,61 @@
+body {
+    background-image: linear-gradient(grey,wheat);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#main {
+    width: 22vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30vh;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: rgb(178, 177, 177);
+    box-shadow:  5px 5px 5px 5px rgb(65, 64, 64);
+}
+#inputBox {
+    width: 18vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+button {
+    width: 20%;
+    height:6vh;
+    border-radius: 100%;
+    background-color: rgb(52, 255, 221);
+}
+h3 {
+    position: absolute;
+    top: 20vh;
+    left: 43vw;
+    color: rgb(52, 255, 221);
+    text-shadow: 3px 3px rgb(67, 161, 169);
+}
+.operators {
+    background-color: rgb(244, 205, 10);
+}
+#result {
+    background-color: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+    #main {
+        width: 50vw;
+    }
+    #inputBox {
+        width: 43vw;
+    }
+    h3 {
+        left: 30vw;
+    }
+}
